@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Estilos para la página de inicio de sesión */
+.login-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"],
+#login-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#login-form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilos para la página de registro de usuarios */
+.registration-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registration-container h2 {
+    margin-bottom: 20px;
+}
+
+#registration-form input[type="text"],
+#registration-form input[type="password"],
+#registration-form input[type="email"],
+#registration-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#registration-form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilos para la página de agendar cita */
+.appointment-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.appointment-container h2 {
+    margin-bottom: 20px;
+}
+
+#appointment-form input[type="text"],
+#appointment-form select,
+#appointment-form input[type="date"],
+#appointment-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#appointment-form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
